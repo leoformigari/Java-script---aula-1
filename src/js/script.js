@@ -40,3 +40,51 @@ console.log(exemplo7)
 let exemplo8=null;
 console.log(exemplo8)
 
+// OPERADORES ARITMÉTICOS
+
+const valor1=10;
+const valor2=20;
+
+console.log(valor1 + valor2);
+console.log(valor1 - valor2);
+console.log(valor1 * valor2);
+console.log(valor1 / valor2);
+
+// OPERADORES LÓGICOS
+// == COMPARAÇÃO
+// === VALOR E TIPO(estritamente igual)
+// && = E (todas condições tem que ser verdadeiras)
+// || = OU (uma das condições tem que ser verdadeira)
+
+console.log(valor1 < valor2);
+console.log(valor1 > 10 && valor2 < 10);
+console.log(valor1 > 100 || valor2 < 10);
+console.log(valor1 == valor2);
+console.log(valor1 === valor2);
+
+/*********************************************
+*     Exercicio1
+**********************************************/
+const p=200;
+const v=20;
+
+const precoFinal= p - v;
+console.log("O preço final com desconto é",precoFinal)
+
+/*********************************************
+*     Exercicio2
+**********************************************/
+let a=20;
+let b=10;
+
+let comparar= (a == 20 && b >= 10);
+console.log("O Resultado é:", comparar)
+
+/*********************************************
+*     Exercicio3
+**********************************************/
+const usuariologado=20;
+const tempotoken=10;
+
+const transacao=(usuariologado ===20 && tempotoken >=10);
+console.log("Transação Autorizada", transacao)
